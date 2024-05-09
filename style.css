@@ -184,10 +184,10 @@ nav a{
 }
 
   .about {
+    background: #1d2630;
     padding: 100px 0;
     text-align: center;
-    background: #1d2630;
-  background-size: cover;
+    background-size: cover;
   }
   
   .about__title {
@@ -216,7 +216,9 @@ nav a{
 /*Start of Infograpfic & Slogan stlye*/
 
 .info {
-  background: #1d2630;
+    background: #1d2630;
+    padding: 100px 0;
+    text-align: center;
     background-size: cover;
 }
 
@@ -457,7 +459,7 @@ nav a{
     padding: 20px;
   }
   
-  .contact .contain h4 {
+  .contact .contain h3 {
     font-size: 1.5rem;
     color: darkkhaki;
     margin-bottom: 15px;
@@ -483,4 +485,26 @@ nav a{
 .contact .cta-btn:hover {
     background-color: black; 
     color: white;
+}
+ /* Phone Adjust */
+@media screen and (max-width: 768px) {
+    .header .text-box {
+        padding: 0.5rem;
+    }
+
+    .info .info-container {
+        padding-bottom: 100%;
+    }
+
+    .gallery .cards {
+        justify-content: center;
+    }
+
+    .gallery .card {
+        width: 80%;
+    }
+
+    .contact .container {
+        max-width: 90%;
+    }
 }
